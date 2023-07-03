@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 
 //home route
 app.get('/' , (req,res) => {
-  res.render('base', {title:"LoginSystem"});
+  res.render('base', {title:"Login System"});
 
 })
 
